@@ -1,0 +1,144 @@
+/* common */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* color variable */
+
+:root {
+    --primary-blue: #1c2752;
+    --primary-yellow: #ffb342;
+    --primary-lightgray: #f4f4f4;
+    --primary-darkgray: #7e7e7e;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: var(--primary-blue);
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+h6 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--primary-darkgray);
+}
+
+li {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-darkgray);
+}
+
+.btn_text_yellow {
+    width: 190px;
+    height: 65px;
+    padding: 20px 39px;
+    background-color: var(--primary-yellow);
+    color: var(--primary-blue);
+}
+
+.btn_large_yellow {
+    width: 250px;
+    height: 65px;
+    padding: 20px 63px;
+    background-color: var(--primary-yellow);
+    color: var(--primary-blue);
+}
+
+.btn_text_blue {
+    width: 190px;
+    height: 65px;
+    padding: 20px 39px;
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.btn_large_blue {
+    width: 250px;
+    height: 65px;
+    padding: 20px 63px;
+    background-color: var(--primary-blue);
+    color: white;
+}
+
