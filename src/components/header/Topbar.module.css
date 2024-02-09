@@ -1,0 +1,27 @@
+.topbar_section {
+  height: 60px;
+  width: 100%;
+  background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+}
+
+.topbar_content_flex_cntr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social_icons_container {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.social_icon_svg {
+  fill: #1C2752;
+}
+.social_icon_svg:hover {
+  fill: white;
+  cursor: pointer;
+}/*# sourceMappingURL=Topbar.module.css.map */
