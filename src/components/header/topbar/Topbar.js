@@ -6,8 +6,8 @@ import {
   social_icons_container,
   social_icon_svg,
 } from "./Topbar.module.css";
-import Instalogo from "../../images/assets/insta.svg";
-import FacebookLogo from "../../images/assets/facebook.svg";
+import Instalogo from "../../../images/assets/insta.svg";
+import FacebookLogo from "../../../images/assets/facebook.svg";
 
 function Topbar() {
   return (

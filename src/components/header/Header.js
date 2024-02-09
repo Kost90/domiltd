@@ -1,16 +1,18 @@
-import React from 'react'
-import Topbar from './Topbar'
-import BottomBar from './bottombar/BottomBar'
-import Navbar from './navbar/Navbar'
+import React from "react";
+import Topbar from "./topbar/Topbar";
+import BottomBar from "./bottombar/BottomBar";
+import Navbar from "./navbar/Navbar";
+import Menumobile from "../menumobile/Menumobile";
 
 function Header() {
   return (
-    <div>
-        <Topbar/>
-        <BottomBar/>
-        <Navbar/>
-    </div>
-  )
+    <>
+      <Topbar />
+      <BottomBar />
+      <Menumobile />
+      <Navbar />
+    </>
+  );
 }
 
-export default Header
+export default Header;

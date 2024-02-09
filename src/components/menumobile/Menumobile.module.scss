@@ -1,0 +1,46 @@
+.mobilemenu_wrapper {
+    position: relative;
+    width: 100%;
+    img {
+        width: 26px;
+        height: 20px;
+    }
+    .menu_button {
+        position: absolute;
+        right: 5%;
+        z-index: 5;
+        background-color: transparent;
+        padding-top: 20px;
+    }
+}
+
+.navlinks_bar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffb342;
+    gap: 30px;
+    color: #2f2f2f;
+    min-height: 100vh;
+    z-index: 2;
+    width: 100%;
+    padding-top: 50px;
+    a {
+        font-size: 20px;
+        font-weight: bold;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .navlinks_bar {
+        display: none;
+    }
+
+    .menu_button {
+        display: none;
+    }
+}
