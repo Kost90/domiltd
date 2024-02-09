@@ -34,6 +34,16 @@
 .navlinks_bar a:hover {
   color: white;
 }
+.navlinks_bar button {
+  width: 190px;
+  height: 65px;
+  padding: 20px 39px;
+  background-color: var(--primary-blue);
+  color: white;
+}
+.navlinks_bar button:hover {
+  color: #ffb342;
+}
 
 @media (min-width: 768px) {
   .navlinks_bar {

@@ -1,13 +1,14 @@
 import * as React from "react"
 import './index.css'
 import Layout from "../components/layout/Layout"
+import Wellcomesec from "../ui/wellcomesec/Wellcomesec"
 
 
 const IndexPage = () => {
   return (
     <main>
       <Layout>
-          <div style={{minHeight:'100vh'}}></div>
+          <Wellcomesec/>
       </Layout>
     </main>
   )

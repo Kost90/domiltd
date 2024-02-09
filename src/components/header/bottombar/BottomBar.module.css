@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .bottombar_content_flex_cntr {
@@ -67,8 +68,8 @@
 
 @media (min-width: 768px) {
   .bottom_bar_section {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     height: 68px;
   }
   .bottombar_content_flex_cntr {

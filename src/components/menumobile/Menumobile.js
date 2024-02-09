@@ -61,11 +61,7 @@ function Menumobile() {
           <Link to="/services" onClick={handelClick}>
             Services
           </Link>
-          <button
-            type="button"
-            className="btn_large_blue"
-            onClick={handelClick}
-          >
+          <button type="button" onClick={handelClick}>
             <Link to="/contactus">Contact us</Link>
           </button>
         </motion.div>

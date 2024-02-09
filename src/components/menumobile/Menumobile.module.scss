@@ -33,6 +33,16 @@
             color: white;
         }
     }
+    button{
+    width: 190px;
+    height: 65px;
+    padding: 20px 39px;
+    background-color: var(--primary-blue);
+    color: white;
+    &:hover{
+        color: #ffb342;
+    }
+    }
 }
 
 @media (min-width: 768px) {
