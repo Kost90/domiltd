@@ -1,0 +1,134 @@
+.footer_wrapper {
+  width: 100%;
+  background-color: #1c2752;
+  height: 100%;
+  padding: 10px;
+}
+
+.footer_flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  h6 {
+    color: white;
+  }
+  span {
+    color: #ffb342;
+    font-weight: inherit;
+  }
+}
+
+.logo_flex_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 34px;
+    height: 37px;
+  }
+}
+
+.contact_flex_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  flex-direction: column;
+  text-align: center;
+  img {
+    width: 20px;
+    height: 14px;
+  }
+  .yellow_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffb342;
+    border-radius: 50%;
+  }
+  p {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  a {
+    color: #f4f4f4;
+    cursor: pointer;
+    font-size: 14px;
+    &:hover {
+      color: #ffb342;
+    }
+  }
+}
+
+.navlinks_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 60px;
+  color: white;
+  a {
+    font-size: 20px;
+    font-weight: bold;
+    &:hover {
+      color: #ffb342;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer_flex_container {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .logo_flex_container {
+    img {
+      width: 44px;
+      height: 47px;
+    }
+  }
+
+  .contacts_container {
+    img {
+      width: 26px;
+      height: 20px;
+    }
+    .yellow_circle {
+      width: 68px;
+      height: 68px;
+    }
+    p {
+      font-size: 20px;
+    }
+    a {
+      font-size: 18px;
+    }
+  }
+
+  .contact_flex_wrapper {
+    flex-direction: row;
+    gap: 68px;
+  }
+
+  .contacts_container {
+    flex-direction: row;
+    text-align: start;
+  }
+}

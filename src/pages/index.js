@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <main>
       <Layout>
-          
+          <div style={{minHeight:'100vh'}}></div>
       </Layout>
     </main>
   )
