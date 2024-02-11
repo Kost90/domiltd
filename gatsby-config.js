@@ -27,5 +27,12 @@ module.exports = {
       name: `tabsdata`,
       path: `${__dirname}/tabsdata`,
     }
+  },
+  {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: `cardsdata`,
+      path: `${__dirname}/cardsdata`,
+    }
   },]
 };

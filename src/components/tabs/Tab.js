@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { GatsbyImage } from "gatsby-plugin-image";
 import { getImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import {motion} from 'framer-motion'
 import {
   tabs_wrapper,
   text_content_container,
@@ -13,7 +14,7 @@ import {
 
 function Tab({ id }) {
   const data = useStaticQuery(graphql`
-    query MyQuery {
+    query Tabsdata {
       allMdx {
         nodes {
           frontmatter {
@@ -38,7 +39,15 @@ function Tab({ id }) {
   const image = getImage(content[0].frontmatter.image);
 
   return (
-    <div className={tabs_wrapper}>
+    <motion.div 
+    initial={{
+      opacity: 0,
+    }}
+    whileInView={{
+      opacity: 1,
+      transition: { duration: 0.5 },
+    }}
+    viewport={{ amount: 0.2, once: true }} className={tabs_wrapper}>
       <div className={text_content_container}>
         <div className={subtitel_tabs_content_text}>
           <StaticImage
@@ -58,7 +67,7 @@ function Tab({ id }) {
         alt={content[0].frontmatter.image_alt}
         className={side_img}
       />
-    </div>
+    </motion.div>
   );
 }
 

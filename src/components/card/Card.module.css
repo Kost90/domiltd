@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1c2752;
+  width: 100%;
+  padding: 47px 36px;
+}
+.card h6 {
+  color: #ffb342;
+}
+.card p {
+  color: #d2d2d2;
+}
+
+.img {
+  width: 48px;
+  height: 48px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 383px;
+    height: 322px;
+  }
+}/*# sourceMappingURL=Card.module.css.map */

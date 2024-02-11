@@ -11,7 +11,9 @@ function Navbar() {
         <Link to="/services">Services</Link>
       </div>
       <button type="button" className="btn_large_blue">
-        <Link to="/contactus">Contact us</Link>
+        <Link to="/contactus" style={{ textTransform: "uppercase" }}>
+          Contact us
+        </Link>
       </button>
     </div>
   );

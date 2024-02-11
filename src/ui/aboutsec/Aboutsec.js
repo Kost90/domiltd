@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import {
   about_sec,
   about_sec_content_wrapper,
@@ -15,12 +16,38 @@ function Aboutsec() {
   return (
     <div className={about_sec}>
       <div className={`container ${about_sec_content_wrapper}`}>
-        <StaticImage
-          src="../../images/pictures/about-sec.jpg"
-          alt="about construction company picture"
-          className={side_image}
-        />
-        <div className={about_content_text}>
+        <motion.div
+          initial={{
+            x: -100,
+            opacity: 0,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            transition: { duration: 0.5 },
+          }}
+          viewport={{ amount: 0.2, once: true }}
+        >
+          <StaticImage
+            src="../../images/pictures/about-sec.jpg"
+            alt="about construction company picture"
+            className={side_image}
+          />
+        </motion.div>
+
+        <motion.div
+          className={about_content_text}
+          initial={{
+            x: 100,
+            opacity: 0,
+          }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            transition: { duration: 0.5 },
+          }}
+          viewport={{ amount: 0.2, once: true }}
+        >
           <div className={subtitel_text}>
             <StaticImage
               src="../../images/svg/svg-icon-about-sec.svg"
@@ -58,7 +85,7 @@ function Aboutsec() {
               <li>- Roof repairs</li>
             </ul>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

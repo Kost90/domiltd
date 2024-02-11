@@ -15,6 +15,8 @@ import PhoneIcon from "../../images/svg/Phone-icon.svg";
 import LocationIcon from "../../images/svg/Location-icon.svg";
 
 function Footer() {
+
+
   return (
     <div className={footer_wrapper}>
       <div className={`container ${footer_flex_container}`}>

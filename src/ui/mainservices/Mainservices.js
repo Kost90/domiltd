@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { motion } from "framer-motion";
 import {
   main_services_sec,
   main_services_content_wrapper,
@@ -13,6 +14,17 @@ import Tab from "../../components/tabs/Tab";
 function Mainservices() {
   const [tabcontent, setTabContent] = useState("1");
   const id = tabcontent;
+  const variants = {
+    hidden: {
+      y: 100,
+      opacity: 0,
+    },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: { duration: 0.3 },
+    },
+  };
 
   const handelChange = (id) => {
     setTabContent(id);
@@ -21,15 +33,33 @@ function Mainservices() {
     <div className={main_services_sec}>
       <div className={`container ${main_services_content_wrapper}`}>
         <div className={main_sec_top_content}>
-          <h2>Main Services</h2>
-          <p>
+          <motion.h2
+            initial={"hidden"}
+            whileInView={"visible"}
+            viewport={{ amount: 0.2, once: true }}
+            variants={variants}
+          >
+            Main Services
+          </motion.h2>
+          <motion.p
+            initial={"hidden"}
+            whileInView={"visible"}
+            viewport={{ amount: 0.2, once: true }}
+            variants={variants}
+          >
             We have experience on construction. But our main services are:
             Interior, loft conversion, painting, tiles, decorations, brick work,
             roof repairs. We do all refurbishment of the all house tiles plater
             plasterboard laminate floor and all the carpentry work fitting
             kitchen (plumbing electrician ) Ground work & Garden.
-          </p>
-          <div className={buttons_group}>
+          </motion.p>
+          <motion.div
+            initial={"hidden"}
+            whileInView={"visible"}
+            viewport={{ amount: 0.2, once: true }}
+            variants={variants}
+            className={buttons_group}
+          >
             <button
               type="button"
               onClick={() => handelChange("1")}
@@ -63,7 +93,7 @@ function Mainservices() {
               />
               Paint
             </button>
-          </div>
+          </motion.div>
         </div>
         <div>
           <Tab id={id} />

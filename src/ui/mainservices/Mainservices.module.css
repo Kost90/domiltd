@@ -36,7 +36,7 @@
   z-index: 1;
 }
 .buttons_group img {
-  width: 44px;
+  width: 36px;
 }
 .buttons_group button {
   display: flex;
@@ -80,6 +80,9 @@
   .buttons_group {
     flex-direction: row;
     gap: 30px;
+  }
+  .buttons_group img {
+    width: 44px;
   }
   .buttons_group button {
     height: 65px;
