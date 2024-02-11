@@ -7,6 +7,7 @@ import {
   experience_container,
   first_block,
   second_block,
+  side_image,
 } from "./Aboutsec.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -17,7 +18,7 @@ function Aboutsec() {
         <StaticImage
           src="../../images/pictures/about-sec.jpg"
           alt="about construction company picture"
-          style={{width:"546px"}}
+          className={side_image}
         />
         <div className={about_content_text}>
           <div className={subtitel_text}>
@@ -28,6 +29,7 @@ function Aboutsec() {
             <p>Welcome domiLTD</p>
           </div>
           <h2>We Provide Your Future</h2>
+          {/* Перемещаю текст из параграфа в дату фаил */}
           <p>
             Our team has huge experience in the domestic and commercial sectors,
             we have a great work ethic, and we are polite and professional. We

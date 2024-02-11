@@ -20,5 +20,12 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+  {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: `tabsdata`,
+      path: `${__dirname}/tabsdata`,
+    }
+  },]
 };

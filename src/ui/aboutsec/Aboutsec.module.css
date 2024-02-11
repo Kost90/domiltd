@@ -9,6 +9,7 @@
   justify-content: center;
   gap: 30px;
   margin-top: 75px;
+  margin-bottom: 75px;
 }
 .about_sec_content_wrapper .about_content_text {
   display: flex;
@@ -17,6 +18,9 @@
   align-items: flex-start;
   gap: 15px;
 }
+.about_sec_content_wrapper .about_content_text .side_image {
+  width: 100%;
+}
 .about_sec_content_wrapper .subtitel_text {
   display: flex;
   flex-direction: row;
@@ -24,10 +28,10 @@
   width: 235px;
   padding: 8px 16px;
   gap: 5px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 .about_sec_content_wrapper .subtitel_text p {
-  color: #1C2752;
+  color: #1c2752;
 }
 .about_sec_content_wrapper .experience_container {
   display: flex;
@@ -43,7 +47,7 @@
   gap: 8px;
   padding: 34px;
   text-align: center;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 .about_sec_content_wrapper .experience_container .first_block span {
   color: #ffb342;
@@ -67,9 +71,14 @@
   .about_sec_content_wrapper {
     flex-direction: row;
     margin-top: 150px;
+    margin-bottom: 150px;
+    height: 546px;
   }
   .about_sec_content_wrapper .about_content_text {
     max-width: 600px;
     gap: 30px;
+  }
+  .about_sec_content_wrapper .about_content_text .side_image {
+    width: 546px;
   }
 }/*# sourceMappingURL=Aboutsec.module.css.map */

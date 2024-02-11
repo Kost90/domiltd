@@ -3,6 +3,8 @@ import './index.css'
 import Layout from "../components/layout/Layout"
 import Wellcomesec from "../ui/wellcomesec/Wellcomesec"
 import Aboutsec from "../ui/aboutsec/Aboutsec"
+import Mainservices from "../ui/mainservices/Mainservices"
+import Services from "../ui/servicessec/Services"
 
 
 const IndexPage = () => {
@@ -11,6 +13,8 @@ const IndexPage = () => {
       <Layout>
           <Wellcomesec/>
           <Aboutsec/>
+          <Mainservices/>
+          <Services/>
       </Layout>
     </main>
   )

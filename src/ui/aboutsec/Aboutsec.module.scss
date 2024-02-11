@@ -1,41 +1,43 @@
-.about_sec{
-    width:100%;
-    // max-height: 546px;
+.about_sec {
+    width: 100%;
 }
 
-.about_sec_content_wrapper{
+.about_sec_content_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
     margin-top: 75px;
-    .about_content_text{
+    margin-bottom: 75px;
+    .about_content_text {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         gap: 15px;
+        .side_image {
+            width: 100%;
+        }
     }
-    .subtitel_text{
+    .subtitel_text {
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 235px;
         padding: 8px 16px;
         gap: 5px;
-        background-color: #F4F4F4;
-        p{
-            color: #1C2752;
+        background-color: #f4f4f4;
+        p {
+            color: #1c2752;
         }
-        
     }
-    .experience_container{
+    .experience_container {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 40px;
-        .first_block{
+        .first_block {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -43,19 +45,19 @@
             gap: 8px;
             padding: 34px;
             text-align: center;
-            background-color: #F4F4F4;
-            span{
+            background-color: #f4f4f4;
+            span {
                 color: #ffb342;
                 font-size: 60px;
                 max-height: 58px;
                 max-width: 90px;
             }
-            h6{
+            h6 {
                 color: black;
                 font-weight: 500;
             }
         }
-        .second_block{
+        .second_block {
             display: flex;
             flex-direction: column;
             gap: 5px;
@@ -65,29 +67,18 @@
     }
 }
 
-
-
-
-
-@media(min-width:1024px){
-    .about_sec_content_wrapper{
+@media (min-width: 1024px) {
+    .about_sec_content_wrapper {
         flex-direction: row;
         margin-top: 150px;
-        // img{
-        //     width: 546px;
-        // }
-        .about_content_text{
+        margin-bottom: 150px;
+        height: 546px;
+        .about_content_text {
             max-width: 600px;
             gap: 30px;
+            .side_image {
+                width: 546px;
+            }
         }
-        // .subtitel_text{
-        //     display: flex;
-        //     flex-direction: row;
-        //     width: 235px;
-        //     padding: 8px 16px;
-        //     gap: 5px;
-        // }
     }
-
-
 }
