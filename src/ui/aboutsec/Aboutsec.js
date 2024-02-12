@@ -56,7 +56,6 @@ function Aboutsec() {
             <p>Welcome domiLTD</p>
           </div>
           <h2>We Provide Your Future</h2>
-          {/* Перемещаю текст из параграфа в дату фаил */}
           <p>
             Our team has huge experience in the domestic and commercial sectors,
             we have a great work ethic, and we are polite and professional. We
