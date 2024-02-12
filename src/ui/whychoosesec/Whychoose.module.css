@@ -1,0 +1,11 @@
+.why_choose_sec {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .why_choose_sec {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=Whychoose.module.css.map */

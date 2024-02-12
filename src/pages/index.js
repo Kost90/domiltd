@@ -5,6 +5,7 @@ import Wellcomesec from "../ui/wellcomesec/Wellcomesec"
 import Aboutsec from "../ui/aboutsec/Aboutsec"
 import Mainservices from "../ui/mainservices/Mainservices"
 import Services from "../ui/servicessec/Services"
+import Whychoosesec from "../ui/whychoosesec/Whychoosesec"
 
 
 const IndexPage = () => {
@@ -15,6 +16,7 @@ const IndexPage = () => {
           <Aboutsec/>
           <Mainservices/>
           <Services/>
+          <Whychoosesec/>
       </Layout>
     </main>
   )
