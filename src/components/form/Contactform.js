@@ -2,7 +2,7 @@ import React, {memo, useCallback, useRef} from 'react';
 import { useForm } from "react-hook-form";
 import { string, object } from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-import {flex_container_form} from './contactform.module.css';
+import {flex_container_form} from './Contactform.module.css';
 import emailjs from '@emailjs/browser';
 
 const phoneNumberRegex = /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/;
