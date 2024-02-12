@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../../components/layout/Layout";
-import Seo from "../../components/Seo/Seo";
+import Seo from '../../components/seo/Seo';
 import {
   container_service,
   img_conrainer,
