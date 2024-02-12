@@ -18,7 +18,7 @@ function Aboutsec() {
       <div className={`container ${about_sec_content_wrapper}`}>
         <motion.div
           initial={{
-            x: -100,
+            x: -10,
             opacity: 0,
           }}
           whileInView={{
@@ -38,7 +38,7 @@ function Aboutsec() {
         <motion.div
           className={about_content_text}
           initial={{
-            x: 100,
+            x: 10,
             opacity: 0,
           }}
           whileInView={{

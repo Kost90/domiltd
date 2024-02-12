@@ -28,7 +28,7 @@ const listdata = [
 function Contentblock() {
   const variants = {
     hidden: {
-      x: 100,
+      x: 20,
       opacity: 0,
     },
     visible: {
@@ -85,7 +85,7 @@ function Contentblock() {
 export const ListItem = ({ titel, text, i }) => {
   const variants = {
     hidden: {
-      x: 100,
+      x: 20,
       opacity: 0,
     },
     visible: {

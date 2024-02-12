@@ -18,7 +18,7 @@ function BottomBar() {
       <div className={`${bottombar_content_flex_cntr} container`}>
         <motion.div
           initial={{
-            x: -100,
+            x: -10,
             opacity: 0,
           }}
           whileInView={{
@@ -37,7 +37,7 @@ function BottomBar() {
         <div className={contact_flex_wrapper}>
           <motion.div
             initial={{
-              x: 100,
+              x: 10,
               opacity: 0,
             }}
             whileInView={{

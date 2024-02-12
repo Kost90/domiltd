@@ -12,7 +12,7 @@ function Sideblock() {
     <div className={side_block_bg}>
       <motion.div
         initial={{
-          x: -100,
+          x: -20,
           opacity: 0,
         }}
         whileInView={{
