@@ -1,0 +1,25 @@
+.contact_sec_wrapper {
+  text-align: center;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #f4f4f4;
+}
+
+.flex_container_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 1024px) {
+  .contact_sec_wrapper {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .flex_container_form {
+    gap: 60px;
+  }
+}/*# sourceMappingURL=Contactsec.module.css.map */

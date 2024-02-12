@@ -6,6 +6,7 @@ import Aboutsec from "../ui/aboutsec/Aboutsec"
 import Mainservices from "../ui/mainservices/Mainservices"
 import Services from "../ui/servicessec/Services"
 import Whychoosesec from "../ui/whychoosesec/Whychoosesec"
+import Contactsec from "../ui/contactsec/Contactsec"
 
 
 const IndexPage = () => {
@@ -17,6 +18,7 @@ const IndexPage = () => {
           <Mainservices/>
           <Services/>
           <Whychoosesec/>
+          <Contactsec/>
       </Layout>
     </main>
   )
