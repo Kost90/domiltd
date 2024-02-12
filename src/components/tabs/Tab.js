@@ -35,7 +35,7 @@ function Tab({ id }) {
     }
   `);
 
-  const content = data.allMdx.nodes.filter((el) => el.frontmatter.id === id);
+  const content = data.allMdx.nodes.filter((el) => el.frontmatter.key === id);
   const image = getImage(content[0].frontmatter.image);
 
   return (
@@ -59,7 +59,7 @@ function Tab({ id }) {
         <h5>{content[0].frontmatter.title}</h5>
         <p>{content[0].excerpt}</p>
         <button type="button">
-          <Link to="some link from data">Read More</Link>
+          <Link to={`/services/${id}`}>Read More</Link>
         </button>
       </div>
       <GatsbyImage

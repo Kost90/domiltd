@@ -13,6 +13,13 @@
     p {
         color: #d2d2d2;
     }
+    a{
+        color: white;
+        text-transform: uppercase;
+        &:hover{
+            color: #ffb342;
+        }
+    }
 }
 
 .img {

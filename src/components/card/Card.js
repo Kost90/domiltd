@@ -28,6 +28,7 @@ function Card() {
             }
             image_alt
             title
+            url
           }
         }
       }
@@ -41,7 +42,7 @@ function Card() {
           <img src={el.frontmatter.image.publicURL} className={img}/>
           <h6>{el.frontmatter.title}</h6>
           <p>{el.excerpt}</p>
-          <Link to="#" style={{color:"white",textTransform:"uppercase"}}>Read more</Link>
+          <Link to={`/services/${el.frontmatter.url}`}>Read more</Link>
         </motion.div>
       ))}
     </>

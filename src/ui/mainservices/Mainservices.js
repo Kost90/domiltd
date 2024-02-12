@@ -12,7 +12,7 @@ import {
 import Tab from "../../components/tabs/Tab";
 
 function Mainservices() {
-  const [tabcontent, setTabContent] = useState("1");
+  const [tabcontent, setTabContent] = useState("housedecoration");
   const id = tabcontent;
   const variants = {
     hidden: {
@@ -62,37 +62,37 @@ function Mainservices() {
           >
             <button
               type="button"
-              onClick={() => handelChange("1")}
-              className={tabcontent === "1" ? active : null}
+              onClick={() => handelChange("housedecoration")}
+              className={tabcontent === "housedecoration" ? active : null}
             >
               <StaticImage
                 src="../../images/svg/interior-svg.svg"
                 alt="svg-icon"
-                style={{width:"44px"}}
+                style={{ width: "44px" }}
               />
               Interior
             </button>
             <button
               type="button"
-              onClick={() => handelChange("2")}
-              className={tabcontent === "2" ? active : null}
+              onClick={() => handelChange("loftconversations")}
+              className={tabcontent === "loftconversations" ? active : null}
             >
               <StaticImage
                 src="../../images/svg/loft-conversions-svg.svg"
                 alt="svg-icon"
-                style={{width:"44px"}}
+                style={{ width: "44px" }}
               />
               Loft conversation
             </button>
             <button
               type="button"
-              onClick={() => handelChange("3")}
-              className={tabcontent === "3" ? active : null}
+              onClick={() => handelChange("paint")}
+              className={tabcontent === "paint" ? active : null}
             >
               <StaticImage
                 src="../../images/svg/paint-svg.svg"
                 alt="svg-icon"
-                style={{width:"44px"}}
+                style={{ width: "44px" }}
               />
               Paint
             </button>
