@@ -68,6 +68,7 @@ function Mainservices() {
               <StaticImage
                 src="../../images/svg/interior-svg.svg"
                 alt="svg-icon"
+                style={{width:"44px"}}
               />
               Interior
             </button>
@@ -79,6 +80,7 @@ function Mainservices() {
               <StaticImage
                 src="../../images/svg/loft-conversions-svg.svg"
                 alt="svg-icon"
+                style={{width:"44px"}}
               />
               Loft conversation
             </button>
@@ -90,6 +92,7 @@ function Mainservices() {
               <StaticImage
                 src="../../images/svg/paint-svg.svg"
                 alt="svg-icon"
+                style={{width:"44px"}}
               />
               Paint
             </button>

@@ -24,7 +24,7 @@ function Aboutsec() {
           whileInView={{
             x: 0,
             opacity: 1,
-            transition: { duration: 0.5 },
+            transition: { duration: 0.3 },
           }}
           viewport={{ amount: 0.2, once: true }}
         >
@@ -44,7 +44,7 @@ function Aboutsec() {
           whileInView={{
             x: 0,
             opacity: 1,
-            transition: { duration: 0.5 },
+            transition: { duration: 0.3 },
           }}
           viewport={{ amount: 0.2, once: true }}
         >
